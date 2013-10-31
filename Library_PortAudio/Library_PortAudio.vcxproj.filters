@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\src\common\pa_allocation.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_converters.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_cpuload.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_debugprint.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_dither.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_front.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_process.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_ringbuffer.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_stream.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\common\pa_trace.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\os\win\pa_win_coinitialize.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\hostapi\dsound\pa_win_ds.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\hostapi\dsound\pa_win_ds_dynlink.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\os\win\pa_win_hostapis.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\os\win\pa_win_util.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\os\win\pa_win_waveformat.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\os\win\pa_win_wdmks_utils.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\hostapi\wmme\pa_win_wmme.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\src\os\win\pa_x86_plain_converters.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\src\common\pa_allocation.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_converters.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_cpuload.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_debugprint.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_dither.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_endianness.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_hostapi.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_memorybarrier.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_process.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_ringbuffer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_stream.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_trace.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_types.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\common\pa_util.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\os\win\pa_win_coinitialize.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\hostapi\dsound\pa_win_ds_dynlink.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\os\win\pa_win_wdmks_utils.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\src\os\win\pa_x86_plain_converters.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

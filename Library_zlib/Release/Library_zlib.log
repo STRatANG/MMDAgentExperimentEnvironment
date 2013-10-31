@@ -1,0 +1,62 @@
+﻿2013/10/22 4:35:45 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_zlib\Library_zlib.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Library_zlib.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\*.h include
+         
+         :VCEnd
+         src\crc32.h
+         src\deflate.h
+         src\gzguts.h
+         src\inffast.h
+         src\inffixed.h
+         src\inflate.h
+         src\inftrees.h
+         src\trees.h
+         src\zconf.h
+         src\zlib.h
+         src\zutil.h
+                11 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt src\adler32.c src\compress.c src\crc32.c src\deflate.c src\gzclose.c src\gzlib.c src\gzread.c src\gzwrite.c src\infback.c src\inffast.c src\inflate.c src\inftrees.c src\trees.c src\uncompr.c src\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\zlib.lib" /NOLOGO /LTCG Release\adler32.obj
+         Release\compress.obj
+         Release\crc32.obj
+         Release\deflate.obj
+         Release\gzclose.obj
+         Release\gzlib.obj
+         Release\gzread.obj
+         Release\gzwrite.obj
+         Release\infback.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         Library_zlib.vcxproj -> C:\MMDAgent\MMDAgent-1.3.1.exp\Library_zlib\lib\zlib.lib
+       FinalizeBuildStatus:
+         ファイル "Release\Library_zlib.unsuccessfulbuild" を削除しています。
+         "Release\Library_zlib.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_zlib\Library_zlib.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:07.40

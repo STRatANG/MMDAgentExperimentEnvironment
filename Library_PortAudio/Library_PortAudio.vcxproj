@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B7312BB-67EF-4986-839F-F700955EC756}</ProjectGuid>
+    <RootNamespace>Library_PortAudio</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(ProjectName)\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PortAudio</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command>copy src\include\*.h include</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>src\src\common;src\include;src\src\os\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;PA_USE_DS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\PortAudio_D.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PreBuildEvent>
+      <Command>copy src\include\*.h include</Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>src\src\common;src\include;src\src\os\win;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;PA_USE_DS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>lib\PortAudio.lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\src\common\pa_allocation.c" />
+    <ClCompile Include="src\src\common\pa_converters.c" />
+    <ClCompile Include="src\src\common\pa_cpuload.c" />
+    <ClCompile Include="src\src\common\pa_debugprint.c" />
+    <ClCompile Include="src\src\common\pa_dither.c" />
+    <ClCompile Include="src\src\common\pa_front.c" />
+    <ClCompile Include="src\src\common\pa_process.c" />
+    <ClCompile Include="src\src\common\pa_ringbuffer.c" />
+    <ClCompile Include="src\src\common\pa_stream.c" />
+    <ClCompile Include="src\src\common\pa_trace.c" />
+    <ClCompile Include="src\src\os\win\pa_win_coinitialize.c" />
+    <ClCompile Include="src\src\hostapi\dsound\pa_win_ds.c" />
+    <ClCompile Include="src\src\hostapi\dsound\pa_win_ds_dynlink.c" />
+    <ClCompile Include="src\src\os\win\pa_win_hostapis.c" />
+    <ClCompile Include="src\src\os\win\pa_win_util.c" />
+    <ClCompile Include="src\src\os\win\pa_win_waveformat.c" />
+    <ClCompile Include="src\src\os\win\pa_win_wdmks_utils.c" />
+    <ClCompile Include="src\src\hostapi\wmme\pa_win_wmme.c" />
+    <ClCompile Include="src\src\os\win\pa_x86_plain_converters.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\src\common\pa_allocation.h" />
+    <ClInclude Include="src\src\common\pa_converters.h" />
+    <ClInclude Include="src\src\common\pa_cpuload.h" />
+    <ClInclude Include="src\src\common\pa_debugprint.h" />
+    <ClInclude Include="src\src\common\pa_dither.h" />
+    <ClInclude Include="src\src\common\pa_endianness.h" />
+    <ClInclude Include="src\src\common\pa_hostapi.h" />
+    <ClInclude Include="src\src\common\pa_memorybarrier.h" />
+    <ClInclude Include="src\src\common\pa_process.h" />
+    <ClInclude Include="src\src\common\pa_ringbuffer.h" />
+    <ClInclude Include="src\src\common\pa_stream.h" />
+    <ClInclude Include="src\src\common\pa_trace.h" />
+    <ClInclude Include="src\src\common\pa_types.h" />
+    <ClInclude Include="src\src\common\pa_util.h" />
+    <ClInclude Include="src\src\os\win\pa_win_coinitialize.h" />
+    <ClInclude Include="src\src\hostapi\dsound\pa_win_ds_dynlink.h" />
+    <ClInclude Include="src\src\os\win\pa_win_wdmks_utils.h" />
+    <ClInclude Include="src\src\os\win\pa_x86_plain_converters.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

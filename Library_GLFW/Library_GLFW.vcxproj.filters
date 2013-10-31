@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lib\enable.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\fullscreen.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glext.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\image.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\init.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\input.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\joystick.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\stream.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\tga.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\thread.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\time.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\win32\win32_enable.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\win32\win32_fullscreen.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\win32\win32_glext.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\win32\win32_init.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\win32\win32_joystick.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\win32\win32_thread.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\win32\win32_time.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\win32\win32_window.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\window.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\include\GL\glfw.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\internal.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\win32\platform.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

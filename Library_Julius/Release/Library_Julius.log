@@ -1,0 +1,499 @@
+﻿2013/10/22 4:35:57 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_Julius\Library_Julius.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Library_Julius.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\libjulius\include\julius\*.h include\julius;
+         copy src\libsent\include\sent\*.h include\sent;
+         copy src\msvc\config\config-*.h include;
+         
+         :VCEnd
+         src\libjulius\include\julius\acconfig.h
+         src\libjulius\include\julius\beam.h
+         src\libjulius\include\julius\callback.h
+         src\libjulius\include\julius\define.h
+         src\libjulius\include\julius\extern.h
+         src\libjulius\include\julius\global.h
+         src\libjulius\include\julius\graph.h
+         src\libjulius\include\julius\jconf.h
+         src\libjulius\include\julius\jfunc.h
+         src\libjulius\include\julius\julius.h
+         src\libjulius\include\julius\juliuslib.h
+         src\libjulius\include\julius\misc.h
+         src\libjulius\include\julius\multi-gram.h
+         src\libjulius\include\julius\plugin.h
+         src\libjulius\include\julius\recog.h
+         src\libjulius\include\julius\search.h
+         src\libjulius\include\julius\trellis.h
+         src\libjulius\include\julius\useropt.h
+         src\libjulius\include\julius\wchmm.h
+                19 個のファイルをコピーしました。
+         src\libsent\include\sent\adin.h
+         src\libsent\include\sent\dfa.h
+         src\libsent\include\sent\hmm.h
+         src\libsent\include\sent\hmm_calc.h
+         src\libsent\include\sent\htk_defs.h
+         src\libsent\include\sent\htk_hmm.h
+         src\libsent\include\sent\htk_param.h
+         src\libsent\include\sent\machines.h
+         src\libsent\include\sent\mfcc.h
+         src\libsent\include\sent\ngram2.h
+         src\libsent\include\sent\ptree.h
+         src\libsent\include\sent\speech.h
+         src\libsent\include\sent\stddefs.h
+         src\libsent\include\sent\tcpip.h
+         src\libsent\include\sent\util.h
+         src\libsent\include\sent\vocabulary.h
+                16 個のファイルをコピーしました。
+         src\msvc\config\config-msvc-julius.h
+         src\msvc\config\config-msvc-libjulius.h
+         src\msvc\config\config-msvc-libsent.h
+                 3 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\libjulius\include /Isrc\libsent\include /Isrc\msvc\config /I..\Library_PortAudio\include /I..\Library_zlib\include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /wd4819 /analyze- /errorReport:prompt src\libsent\src\phmm\addlog.c "src\libjulius\src\adin-cut.c" src\libsent\src\adin\adin_file.c src\libsent\src\adin\adin_portaudio.c src\libsent\src\adin\adin_tcpip.c src\libsent\src\util\aptree.c src\libjulius\src\backtrellis.c src\libjulius\src\beam.c src\libsent\src\phmm\calc_mix.c src\libsent\src\phmm\calc_tied_mix.c src\libjulius\src\callback.c src\libsent\src\hmminfo\cdhmm.c src\libsent\src\hmminfo\cdset.c src\libsent\src\hmminfo\check_hmm_restriction.c src\libsent\src\hmminfo\check_hmmtype.c src\libsent\src\hmminfo\chkhmmlist.c src\libjulius\src\confnet.c src\libsent\src\util\confout.c src\libsent\src\dfa\cpair.c src\libjulius\src\default.c src\libjulius\src\dfa_decode.c src\libsent\src\dfa\dfa_lookup.c src\libsent\src\dfa\dfa_malloc.c src\libsent\src\dfa\dfa_util.c src\libsent\src\adin\ds48to16.c src\libsent\src\util\endian.c src\libjulius\src\factoring_sub.c src\libjulius\src\gmm.c src\libsent\src\phmm\gms.c src\libsent\src\phmm\gms_gprune.c src\libsent\src\phmm\gprune_beam.c src\libsent\src\phmm\gprune_common.c src\libsent\src\phmm\gprune_heu.c src\libsent\src\phmm\gprune_none.c src\libsent\src\phmm\gprune_safe.c src\libjulius\src\gramlist.c src\libjulius\src\graphout.c src\libsent\src\hmminfo\guess_cdHMM.c src\libsent\src\util\gzfile.c src\libjulius\src\hmm_check.c src\libsent\src\hmminfo\hmm_lookup.c src\libsent\src\dfa\init_dfa.c src\libsent\src\ngram\init_ngram.c src\libsent\src\hmminfo\init_phmm.c src\libsent\src\voca\init_voca.c src\libjulius\src\instance.c src\libjulius\src\jfunc.c src\libsent\src\util\jlog.c src\libjulius\src\m_adin.c src\libjulius\src\m_chkparam.c src\libjulius\src\m_fusion.c src\libjulius\src\m_info.c src\libjulius\src\m_jconf.c src\libjulius\src\m_options.c src\libjulius\src\m_usage.c "src\libsent\src\wav2mfcc\mfcc-core.c" src\libsent\src\dfa\mkcpair.c src\libsent\src\dfa\mkterminfo.c src\libsent\src\phmm\mkwhmm.c "src\libjulius\src\multi-gram.c" src\libsent\src\util\mybmalloc.c src\libsent\src\util\mymalloc.c src\libsent\src\util\mystrtok.c src\libsent\src\ngram\ngram_access.c src\libsent\src\ngram\ngram_compact_context.c src\libjulius\src\ngram_decode.c src\libsent\src\ngram\ngram_lookup.c src\libsent\src\ngram\ngram_malloc.c src\libsent\src\ngram\ngram_read_arpa.c src\libsent\src\ngram\ngram_read_bin.c src\libsent\src\ngram\ngram_util.c src\libsent\src\ngram\ngram_write_bin.c src\libsent\src\phmm\outprob.c src\libsent\src\phmm\outprob_init.c src\libjulius\src\outprob_style.c src\libsent\src\wav2mfcc\para.c src\libsent\src\anlz\param_malloc.c src\libsent\src\anlz\paramselect.c src\libsent\src\anlz\paramtypes.c src\libjulius\src\pass1.c src\libjulius\src\plugin.c src\libsent\src\util\ptree.c src\libsent\src\hmminfo\put_htkdata_info.c src\libsent\src\util\qsort.c src\libsent\src\dfa\rddfa.c src\libsent\src\hmminfo\rdhmmdef.c src\libsent\src\hmminfo\rdhmmdef_data.c src\libsent\src\hmminfo\rdhmmdef_dens.c src\libsent\src\hmminfo\rdhmmdef_mpdf.c src\libsent\src\hmminfo\rdhmmdef_options.c src\libsent\src\hmminfo\rdhmmdef_regtree.c src\libsent\src\hmminfo\rdhmmdef_state.c src\libsent\src\hmminfo\rdhmmdef_streamweight.c src\libsent\src\hmminfo\rdhmmdef_tiedmix.c src\libsent\src\hmminfo\rdhmmdef_trans.c src\libsent\src\hmminfo\rdhmmdef_var.c src\libsent\src\hmminfo\rdhmmlist.c src\libsent\src\anlz\rdparam.c src\libsent\src\net\rdwt.c src\libsent\src\hmminfo\read_binhmm.c src\libsent\src\hmminfo\read_binhmmlist.c src\libsent\src\util\readfile.c "src\libjulius\src\realtime-1stpass.c" src\libjulius\src\recogmain.c src\libjulius\src\search_bestfirst_main.c src\libjulius\src\search_bestfirst_v1.c src\libjulius\src\search_bestfirst_v2.c "src\libsent\src\net\server-client.c" src\libjulius\src\spsegment.c src\libsent\src\wav2mfcc\ss.c src\libsent\src\util\strcasecmp.c src\libsent\src\anlz\strip.c src\libsent\src\anlz\strip_mfcc.c src\libjulius\src\useropt.c src\msvc\config\version.c src\libsent\src\voca\voca_load_htkdict.c src\libsent\src\voca\voca_load_wordlist.c src\libsent\src\voca\voca_lookup.c src\libsent\src\voca\voca_malloc.c src\libsent\src\voca\voca_util.c src\libsent\src\phmm\vsegment.c "src\libsent\src\wav2mfcc\wav2mfcc-buffer.c" "src\libsent\src\wav2mfcc\wav2mfcc-pipe.c" src\libjulius\src\wav2mfcc.c src\libjulius\src\wchmm.c src\libjulius\src\wchmm_check.c src\libjulius\src\word_align.c src\libsent\src\hmminfo\write_binhmm.c src\libsent\src\hmminfo\write_binhmmlist.c src\libsent\src\anlz\wrsamp.c src\libsent\src\anlz\wrwav.c "src\libsent\src\adin\zc-e.c" src\libsent\src\adin\zmean.c
+         addlog.c
+     1>src\libsent\src\phmm\addlog.c(50): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         adin-cut.c
+     1>src\libjulius\src\adin-cut.c(175): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\adin-cut.c(303): warning C4101: 'transfer_online_local' : ローカル変数は 1 度も使われていません。
+         adin_file.c
+         adin_portaudio.c
+     1>src\libsent\src\adin\adin_portaudio.c(168): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+         adin_tcpip.c
+         aptree.c
+     1>src\libsent\src\util\aptree.c(415): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(419): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(423): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(477): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(481): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(485): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(450): warning C4101: 'num' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\util\aptree.c(448): warning C4101: 'maxbit' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\util\aptree.c(451): warning C4101: 'err' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\util\aptree.c(450): warning C4101: 'did' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\util\aptree.c(448): warning C4101: 'count_branch' : ローカル変数は 1 度も使われていません。
+         backtrellis.c
+         beam.c
+     1>src\libjulius\src\beam.c(539): warning C4244: 'return' : 'LOGPROB' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\beam.c(609): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\beam.c(644): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\beam.c(667): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         calc_mix.c
+     1>src\libsent\src\phmm\calc_mix.c(80): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         calc_tied_mix.c
+     1>src\libsent\src\phmm\calc_tied_mix.c(236): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\calc_tied_mix.c(345): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         callback.c
+         cdhmm.c
+         cdset.c
+         check_hmm_restriction.c
+         check_hmmtype.c
+         chkhmmlist.c
+         confnet.c
+     1>src\libjulius\src\confnet.c(664): warning C4244: '=' : 'double' から 'PROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\confnet.c(823): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         confout.c
+         cpair.c
+         default.c
+     1>src\libjulius\src\default.c(289): warning C4305: '=' : 'double' から 'LOGPROB' へ切り詰めます。
+         コンパイル中...
+         dfa_decode.c
+         dfa_lookup.c
+         dfa_malloc.c
+         dfa_util.c
+         ds48to16.c
+     1>src\libsent\src\adin\ds48to16.c(359): warning C4244: '=' : 'double' から 'SP16' への変換です。データが失われる可能性があります。
+         endian.c
+         factoring_sub.c
+     1>src\libjulius\src\factoring_sub.c(183): warning C4101: 's' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\factoring_sub.c(353): warning C4101: 'mtmp' : ローカル変数は 1 度も使われていません。
+         gmm.c
+     1>src\libjulius\src\gmm.c(192): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(225): warning C4244: '初期化中' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(236): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(366): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(691): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(694): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gms.c
+         gms_gprune.c
+     1>src\libsent\src\phmm\gms_gprune.c(100): warning C4244: '初期化中' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gms_gprune.c(116): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gms_gprune.c(177): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_beam.c
+     1>src\libsent\src\phmm\gprune_beam.c(182): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gprune_beam.c(222): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_common.c
+         gprune_heu.c
+     1>src\libsent\src\phmm\gprune_heu.c(181): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gprune_heu.c(212): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gprune_heu.c(224): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_none.c
+     1>src\libsent\src\phmm\gprune_none.c(81): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_safe.c
+     1>src\libsent\src\phmm\gprune_safe.c(83): warning C4244: '初期化中' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gprune_safe.c(94): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gramlist.c
+         graphout.c
+     1>src\libjulius\src\graphout.c(2360): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\graphout.c(2362): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\graphout.c(2492): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         guess_cdHMM.c
+         gzfile.c
+     1>src\libsent\src\util\gzfile.c(61): warning C4133: 'return' : 'gzFile' と 'FILE *' の間で型に互換性がありません。
+         hmm_check.c
+         コンパイル中...
+         hmm_lookup.c
+         init_dfa.c
+         init_ngram.c
+         init_phmm.c
+         init_voca.c
+         instance.c
+         jfunc.c
+     1>src\libjulius\src\jfunc.c(408): warning C4101: 'argc' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\jfunc.c(409): warning C4101: 'argv' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\jfunc.c(410): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+         jlog.c
+         m_adin.c
+         m_chkparam.c
+         m_fusion.c
+         m_info.c
+         m_jconf.c
+     1>src\libjulius\src\m_jconf.c(459): warning C4101: 'cdir' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\m_jconf.c(458): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+         m_options.c
+     1>src\libjulius\src\m_options.c(563): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(572): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(633): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(639): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(654): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(685): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(690): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(705): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(710): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(903): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         m_usage.c
+         mfcc-core.c
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(47): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(102): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(133): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(134): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(162): warning C4244: 'return' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(183): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(184): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(196): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(204): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(214): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(240): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(247): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(248): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(253): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(254): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(299): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(372): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(387): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(417): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(417): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(439): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(439): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(440): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(440): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(483): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(484): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(535): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(555): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(586): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         mkcpair.c
+         mkterminfo.c
+         mkwhmm.c
+         multi-gram.c
+         コンパイル中...
+         mybmalloc.c
+         mymalloc.c
+         mystrtok.c
+         ngram_access.c
+         ngram_compact_context.c
+         ngram_decode.c
+         ngram_lookup.c
+         ngram_malloc.c
+         ngram_read_arpa.c
+     1>src\libsent\src\ngram\ngram_read_arpa.c(53): warning C4101: 'p' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(215): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(385): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(403): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(416): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(419): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(422): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(429): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(497): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         ngram_read_bin.c
+         ngram_util.c
+         ngram_write_bin.c
+         outprob.c
+         outprob_init.c
+         outprob_style.c
+         para.c
+     1>src\libsent\src\wav2mfcc\para.c(91): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>src\libsent\src\wav2mfcc\para.c(120): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(121): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>src\libsent\src\wav2mfcc\para.c(128): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>src\libsent\src\wav2mfcc\para.c(234): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(236): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(238): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(244): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(259): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(261): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(267): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(269): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(271): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(273): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(275): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(297): warning C4244: '=' : 'float' から 'long' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(298): warning C4244: '=' : 'double' から 'long' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(299): warning C4244: '/=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(300): warning C4244: '/=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         param_malloc.c
+         paramselect.c
+         paramtypes.c
+         pass1.c
+     1>src\libjulius\src\pass1.c(377): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\pass1.c(513): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\pass1.c(639): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         コンパイル中...
+         plugin.c
+     1>src\libjulius\src\plugin.c(356): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(451): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libjulius\src\plugin.c(560): warning C4244: '=' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\plugin.c(578): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(594): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(611): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(628): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(664): warning C4101: 'ret' : ローカル変数は 1 度も使われていません。
+         ptree.c
+         put_htkdata_info.c
+         qsort.c
+         rddfa.c
+         rdhmmdef.c
+     1>src\libsent\src\hmminfo\rdhmmdef.c(129): warning C4244: '=' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+         rdhmmdef_data.c
+         rdhmmdef_dens.c
+         rdhmmdef_mpdf.c
+         rdhmmdef_options.c
+         rdhmmdef_regtree.c
+         rdhmmdef_state.c
+         rdhmmdef_streamweight.c
+         rdhmmdef_tiedmix.c
+         rdhmmdef_trans.c
+         rdhmmdef_var.c
+         rdhmmlist.c
+         rdparam.c
+         rdwt.c
+         read_binhmm.c
+         コンパイル中...
+         read_binhmmlist.c
+     1>src\libsent\src\hmminfo\read_binhmmlist.c(122): warning C4101: 'ttmp' : ローカル変数は 1 度も使われていません。
+         readfile.c
+         realtime-1stpass.c
+     1>src\libjulius\src\realtime-1stpass.c(670): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libjulius\src\realtime-1stpass.c(816): warning C4244: '=' : 'float' から 'SP16' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\realtime-1stpass.c(990): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         recogmain.c
+     1>src\libjulius\src\recogmain.c(1172): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         search_bestfirst_main.c
+     1>src\libjulius\src\search_bestfirst_main.c(528): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\search_bestfirst_main.c(568): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\search_bestfirst_main.c(1128): warning C4101: 'j' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\search_bestfirst_main.c(1514): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         search_bestfirst_v1.c
+         search_bestfirst_v2.c
+         server-client.c
+         spsegment.c
+     1>src\libjulius\src\spsegment.c(164): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libjulius\src\spsegment.c(197): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         ss.c
+     1>src\libsent\src\wav2mfcc\ss.c(160): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         strcasecmp.c
+         strip.c
+         strip_mfcc.c
+         useropt.c
+     1>src\libjulius\src\useropt.c(141): warning C4113: 'void (__cdecl *)()' はパラメーター リストが 'void (__cdecl *)(void)' と異なります。
+         version.c
+         voca_load_htkdict.c
+     1>src\libsent\src\voca\voca_load_htkdict.c(437): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         voca_load_wordlist.c
+     1>src\libsent\src\voca\voca_load_wordlist.c(265): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         voca_lookup.c
+         voca_malloc.c
+         voca_util.c
+         コンパイル中...
+         vsegment.c
+     1>src\libsent\src\phmm\vsegment.c(140): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+         wav2mfcc-buffer.c
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(125): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(131): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(162): warning C4244: '/=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(275): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         wav2mfcc-pipe.c
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(345): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(349): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(355): warning C4244: '/=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(367): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(371): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(410): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(503): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(649): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(667): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         wav2mfcc.c
+         wchmm.c
+     1>src\libjulius\src\wchmm.c(212): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         wchmm_check.c
+     1>src\libjulius\src\wchmm_check.c(228): warning C4101: 'j' : ローカル変数は 1 度も使われていません。
+         word_align.c
+         write_binhmm.c
+         write_binhmmlist.c
+         wrsamp.c
+         wrwav.c
+         zc-e.c
+         zmean.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\Julius.lib" /NOLOGO /LTCG Release\addlog.obj
+         "Release\adin-cut.obj"
+         Release\adin_file.obj
+         Release\adin_portaudio.obj
+         Release\adin_tcpip.obj
+         Release\aptree.obj
+         Release\backtrellis.obj
+         Release\beam.obj
+         Release\calc_mix.obj
+         Release\calc_tied_mix.obj
+         Release\callback.obj
+         Release\cdhmm.obj
+         Release\cdset.obj
+         Release\check_hmm_restriction.obj
+         Release\check_hmmtype.obj
+         Release\chkhmmlist.obj
+         Release\confnet.obj
+         Release\confout.obj
+         Release\cpair.obj
+         Release\default.obj
+         Release\dfa_decode.obj
+         Release\dfa_lookup.obj
+         Release\dfa_malloc.obj
+         Release\dfa_util.obj
+         Release\ds48to16.obj
+         Release\endian.obj
+         Release\factoring_sub.obj
+         Release\gmm.obj
+         Release\gms.obj
+         Release\gms_gprune.obj
+         Release\gprune_beam.obj
+         Release\gprune_common.obj
+         Release\gprune_heu.obj
+         Release\gprune_none.obj
+         Release\gprune_safe.obj
+         Release\gramlist.obj
+         Release\graphout.obj
+         Release\guess_cdHMM.obj
+         Release\gzfile.obj
+         Release\hmm_check.obj
+         Release\hmm_lookup.obj
+         Release\init_dfa.obj
+         Release\init_ngram.obj
+         Release\init_phmm.obj
+         Release\init_voca.obj
+         Release\instance.obj
+         Release\jfunc.obj
+         Release\jlog.obj
+         Release\m_adin.obj
+         Release\m_chkparam.obj
+         Release\m_fusion.obj
+         Release\m_info.obj
+         Release\m_jconf.obj
+         Release\m_options.obj
+         Release\m_usage.obj
+         "Release\mfcc-core.obj"
+         Release\mkcpair.obj
+         Release\mkterminfo.obj
+         Release\mkwhmm.obj
+         "Release\multi-gram.obj"
+         Release\mybmalloc.obj
+         Release\mymalloc.obj
+         Release\mystrtok.obj
+         Release\ngram_access.obj
+         Release\ngram_compact_context.obj
+         Release\ngram_decode.obj
+         Release\ngram_lookup.obj
+         Release\ngram_malloc.obj
+         Release\ngram_read_arpa.obj
+         Release\ngram_read_bin.obj
+         Release\ngram_util.obj
+         Release\ngram_write_bin.obj
+         Release\outprob.obj
+         Release\outprob_init.obj
+         Release\outprob_style.obj
+         Release\para.obj
+         Release\param_malloc.obj
+         Release\paramselect.obj
+         Release\paramtypes.obj
+         Release\pass1.obj
+         Release\plugin.obj
+         Release\ptree.obj
+         Release\put_htkdata_info.obj
+         Release\qsort.obj
+         Release\rddfa.obj
+         Release\rdhmmdef.obj
+         Release\rdhmmdef_data.obj
+         Release\rdhmmdef_dens.obj
+         Release\rdhmmdef_mpdf.obj
+         Release\rdhmmdef_options.obj
+         Release\rdhmmdef_regtree.obj
+         Release\rdhmmdef_state.obj
+         Release\rdhmmdef_streamweight.obj
+         Release\rdhmmdef_tiedmix.obj
+         Release\rdhmmdef_trans.obj
+         Release\rdhmmdef_var.obj
+         Release\rdhmmlist.obj
+         Release\rdparam.obj
+         Release\rdwt.obj
+         Release\read_binhmm.obj
+         Release\read_binhmmlist.obj
+         Release\readfile.obj
+         "Release\realtime-1stpass.obj"
+         Release\recogmain.obj
+         Release\search_bestfirst_main.obj
+         Release\search_bestfirst_v1.obj
+         Release\search_bestfirst_v2.obj
+         "Release\server-client.obj"
+         Release\spsegment.obj
+         Release\ss.obj
+         Release\strcasecmp.obj
+         Release\strip.obj
+         Release\strip_mfcc.obj
+         Release\useropt.obj
+         Release\version.obj
+         Release\voca_load_htkdict.obj
+         Release\voca_load_wordlist.obj
+         Release\voca_lookup.obj
+         Release\voca_malloc.obj
+         Release\voca_util.obj
+         Release\vsegment.obj
+         "Release\wav2mfcc-buffer.obj"
+         "Release\wav2mfcc-pipe.obj"
+         Release\wav2mfcc.obj
+         Release\wchmm.obj
+         Release\wchmm_check.obj
+         Release\word_align.obj
+         Release\write_binhmm.obj
+         Release\write_binhmmlist.obj
+         Release\wrsamp.obj
+         Release\wrwav.obj
+         "Release\zc-e.obj"
+         Release\zmean.obj
+         Library_Julius.vcxproj -> C:\MMDAgent\MMDAgent-1.3.1.exp\Library_Julius\lib\Julius.lib
+       FinalizeBuildStatus:
+         ファイル "Release\Library_Julius.unsuccessfulbuild" を削除しています。
+         "Release\Library_Julius.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_Julius\Library_Julius.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:30.37

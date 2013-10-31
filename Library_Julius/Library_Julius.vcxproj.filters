@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\libsent\src\phmm\addlog.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\adin-cut.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\adin\adin_file.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\adin\adin_portaudio.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\adin\adin_tcpip.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\aptree.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\backtrellis.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\beam.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\calc_mix.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\calc_tied_mix.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\callback.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\cdhmm.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\cdset.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\check_hmm_restriction.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\check_hmmtype.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\chkhmmlist.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\confnet.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\confout.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\dfa\cpair.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\default.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\dfa_decode.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\dfa\dfa_lookup.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\dfa\dfa_malloc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\dfa\dfa_util.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\adin\ds48to16.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\endian.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\factoring_sub.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\gmm.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\gms.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\gms_gprune.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\gprune_beam.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\gprune_common.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\gprune_heu.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\gprune_none.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\gprune_safe.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\gramlist.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\graphout.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\guess_cdHMM.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\gzfile.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\hmm_check.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\hmm_lookup.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\dfa\init_dfa.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\init_ngram.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\init_phmm.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\voca\init_voca.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\instance.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\jfunc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\jlog.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\m_adin.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\m_chkparam.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\m_fusion.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\m_info.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\m_jconf.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\m_options.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\m_usage.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\wav2mfcc\mfcc-core.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\dfa\mkcpair.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\dfa\mkterminfo.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\mkwhmm.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\multi-gram.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\mybmalloc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\mymalloc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\mystrtok.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\ngram_access.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\ngram_compact_context.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\ngram_decode.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\ngram_lookup.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\ngram_malloc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\ngram_read_arpa.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\ngram_read_bin.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\ngram_util.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\ngram\ngram_write_bin.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\outprob.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\outprob_init.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\outprob_style.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\wav2mfcc\para.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\anlz\param_malloc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\anlz\paramselect.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\anlz\paramtypes.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\pass1.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\plugin.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\ptree.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\put_htkdata_info.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\qsort.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\dfa\rddfa.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_data.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_dens.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_mpdf.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_options.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_regtree.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_state.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_streamweight.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_tiedmix.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_trans.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmdef_var.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\rdhmmlist.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\anlz\rdparam.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\net\rdwt.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\read_binhmm.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\read_binhmmlist.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\readfile.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\realtime-1stpass.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\recogmain.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\search_bestfirst_main.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\search_bestfirst_v1.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\search_bestfirst_v2.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\net\server-client.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\spsegment.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\wav2mfcc\ss.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\util\strcasecmp.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\anlz\strip.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\anlz\strip_mfcc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\useropt.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msvc\config\version.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\voca\voca_load_htkdict.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\voca\voca_load_wordlist.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\voca\voca_lookup.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\voca\voca_malloc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\voca\voca_util.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\phmm\vsegment.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\wav2mfcc\wav2mfcc-buffer.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\wav2mfcc\wav2mfcc-pipe.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\wav2mfcc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\wchmm.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\wchmm_check.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libjulius\src\word_align.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\write_binhmm.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\hmminfo\write_binhmmlist.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\anlz\wrsamp.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\anlz\wrwav.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\adin\zc-e.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libsent\src\adin\zmean.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\libsent\include\sent\adin.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\beam.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\callback.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msvc\config\config-msvc-libjulius.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msvc\config\config-msvc-libsent.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\define.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\dfa.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\extern.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\global.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\graph.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\hmm.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\hmm_calc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\htk_defs.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\htk_hmm.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\htk_param.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\jconf.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\jfunc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\julius.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\juliuslib.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\src\adin\lpfcoef_2to1.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\src\adin\lpfcoef_3to4.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\machines.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\mfcc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\misc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\multi-gram.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\ngram2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\plugin.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\ptree.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\recog.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\search.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\speech.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\stddefs.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\tcpip.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\trellis.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\useropt.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\util.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libsent\include\sent\vocabulary.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libjulius\include\julius\wchmm.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

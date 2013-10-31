@@ -1,0 +1,68 @@
+﻿2013/10/22 4:36:41 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_MMDAgent\Library_MMDAgent.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Library_MMDAgent.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\include\*.h include
+         :VCEnd
+         src\include\BoneController.h
+         src\include\LipSync.h
+         src\include\LogText.h
+         src\include\Message.h
+         src\include\MMDAgent.h
+         src\include\MMDAgent_utils.h
+         src\include\MotionStocker.h
+         src\include\Option.h
+         src\include\Plugin.h
+         src\include\PMDObject.h
+         src\include\Render.h
+         src\include\ScreenWindow.h
+         src\include\Stage.h
+         src\include\TextRenderer.h
+         src\include\TileTexture.h
+         src\include\Timer.h
+                16 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Library_Bullet_Physics\include /I..\Library_MMDFiles\include /I..\Library_GLee\include /Isrc\include /I..\Library_GLFW\include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D MMDAGENT /D _MBCS /Gm- /EHsc /MD /GS /Gy /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt src\lib\BoneController.cpp src\lib\LipSync.cpp src\lib\LogText.cpp src\lib\Message.cpp src\lib\MMDAgent.cpp src\lib\MMDAgent_utils.cpp src\lib\MotionStocker.cpp src\lib\Option.cpp src\lib\Plugin.cpp src\lib\PMDObject.cpp src\lib\Render.cpp src\lib\ScreenWindow.cpp src\lib\Stage.cpp src\lib\TextRenderer.cpp src\lib\TileTexture.cpp src\lib\Timer.cpp
+         BoneController.cpp
+         LipSync.cpp
+         LogText.cpp
+         Message.cpp
+         MMDAgent.cpp
+         MMDAgent_utils.cpp
+         MotionStocker.cpp
+         Option.cpp
+         Plugin.cpp
+         PMDObject.cpp
+         Render.cpp
+         ScreenWindow.cpp
+         Stage.cpp
+         TextRenderer.cpp
+         TileTexture.cpp
+         Timer.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\MMDAgent.lib" /NOLOGO /LTCG Release\BoneController.obj
+         Release\LipSync.obj
+         Release\LogText.obj
+         Release\Message.obj
+         Release\MMDAgent.obj
+         Release\MMDAgent_utils.obj
+         Release\MotionStocker.obj
+         Release\Option.obj
+         Release\Plugin.obj
+         Release\PMDObject.obj
+         Release\Render.obj
+         Release\ScreenWindow.obj
+         Release\Stage.obj
+         Release\TextRenderer.obj
+         Release\TileTexture.obj
+         Release\Timer.obj
+         Library_MMDAgent.vcxproj -> C:\MMDAgent\MMDAgent-1.3.1.exp\Library_MMDAgent\lib\MMDAgent.lib
+       FinalizeBuildStatus:
+         ファイル "Release\Library_MMDAgent.unsuccessfulbuild" を削除しています。
+         "Release\Library_MMDAgent.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_MMDAgent\Library_MMDAgent.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:09.45

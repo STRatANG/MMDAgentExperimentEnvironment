@@ -1,0 +1,76 @@
+﻿2013/10/22 4:35:49 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_PortAudio\Library_PortAudio.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Library_PortAudio.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\include\*.h include
+         :VCEnd
+         src\include\pa_asio.h
+         src\include\pa_jack.h
+         src\include\pa_linux_alsa.h
+         src\include\pa_mac_core.h
+         src\include\pa_win_ds.h
+         src\include\pa_win_wasapi.h
+         src\include\pa_win_waveformat.h
+         src\include\pa_win_wmme.h
+         src\include\portaudio.h
+                 9 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\src\common /Isrc\include /Isrc\src\os\win /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D PA_USE_DS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\src\common\pa_allocation.c src\src\common\pa_converters.c src\src\common\pa_cpuload.c src\src\common\pa_debugprint.c src\src\common\pa_dither.c src\src\common\pa_front.c src\src\common\pa_process.c src\src\common\pa_ringbuffer.c src\src\common\pa_stream.c src\src\common\pa_trace.c src\src\os\win\pa_win_coinitialize.c src\src\hostapi\dsound\pa_win_ds.c src\src\hostapi\dsound\pa_win_ds_dynlink.c src\src\os\win\pa_win_hostapis.c src\src\os\win\pa_win_util.c src\src\os\win\pa_win_waveformat.c src\src\os\win\pa_win_wdmks_utils.c src\src\hostapi\wmme\pa_win_wmme.c src\src\os\win\pa_x86_plain_converters.c
+         pa_allocation.c
+         pa_converters.c
+         pa_cpuload.c
+         pa_debugprint.c
+         pa_dither.c
+         pa_front.c
+         pa_process.c
+         pa_ringbuffer.c
+         pa_stream.c
+         pa_trace.c
+         pa_win_coinitialize.c
+         pa_win_ds.c
+     1>src\src\hostapi\dsound\pa_win_ds.c(1302): warning C4133: '関数' : 'PaWinDsHostApiRepresentation *' と 'PaUtilHostApiRepresentation *' の間で型に互換性がありません。
+     1>src\src\hostapi\dsound\pa_win_ds.c(1686): warning C4244: '初期化中' : 'double' から 'unsigned long' への変換です。データが失われる可能性があります。
+     1>src\src\hostapi\dsound\pa_win_ds.c(1687): warning C4244: '初期化中' : 'double' から 'unsigned long' への変換です。データが失われる可能性があります。
+     1>src\src\hostapi\dsound\pa_win_ds.c(1688): warning C4244: '初期化中' : 'double' から 'unsigned long' への変換です。データが失われる可能性があります。
+     1>src\src\hostapi\dsound\pa_win_ds.c(2657): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\src\hostapi\dsound\pa_win_ds.c(2652): warning C4101: 'mmResult' : ローカル変数は 1 度も使われていません。
+     1>src\src\hostapi\dsound\pa_win_ds.c(2653): warning C4101: 'hWaitableTimer' : ローカル変数は 1 度も使われていません。
+     1>src\src\hostapi\dsound\pa_win_ds.c(2881): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\src\hostapi\dsound\pa_win_ds.c(2895): warning C4244: '=' : 'double' から 'UINT' への変換です。データが失われる可能性があります。
+         pa_win_ds_dynlink.c
+         pa_win_hostapis.c
+         pa_win_util.c
+         pa_win_waveformat.c
+         pa_win_wdmks_utils.c
+         pa_win_wmme.c
+         pa_x86_plain_converters.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\PortAudio.lib" /NOLOGO /LTCG Release\pa_allocation.obj
+         Release\pa_converters.obj
+         Release\pa_cpuload.obj
+         Release\pa_debugprint.obj
+         Release\pa_dither.obj
+         Release\pa_front.obj
+         Release\pa_process.obj
+         Release\pa_ringbuffer.obj
+         Release\pa_stream.obj
+         Release\pa_trace.obj
+         Release\pa_win_coinitialize.obj
+         Release\pa_win_ds.obj
+         Release\pa_win_ds_dynlink.obj
+         Release\pa_win_hostapis.obj
+         Release\pa_win_util.obj
+         Release\pa_win_waveformat.obj
+         Release\pa_win_wdmks_utils.obj
+         Release\pa_win_wmme.obj
+         Release\pa_x86_plain_converters.obj
+         Library_PortAudio.vcxproj -> C:\MMDAgent\MMDAgent-1.3.1.exp\Library_PortAudio\lib\PortAudio.lib
+       FinalizeBuildStatus:
+         ファイル "Release\Library_PortAudio.unsuccessfulbuild" を削除しています。
+         "Release\Library_PortAudio.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_PortAudio\Library_PortAudio.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.58
