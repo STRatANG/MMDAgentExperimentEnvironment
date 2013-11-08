@@ -1,5 +1,5 @@
-﻿2013/10/22 4:35:59 にビルドを開始しました。
-     1>ノード 3 上のプロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_Open_JTalk\Library_Open_JTalk.vcxproj" (build ターゲット)。
+﻿2013/11/07 12:42:00 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\GitHub\MMDAgentExperimentEnvironment\Library_Open_JTalk\Library_Open_JTalk.vcxproj" (build ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "Release\Library_Open_JTalk.unsuccessfulbuild" を作成しています。
        PreBuildEvent:
@@ -32,13 +32,13 @@
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\jpcommon /Isrc\mecab\src /Isrc\mecab2njd /Isrc\njd /Isrc\njd2jpcommon /Isrc\njd_set_accent_phrase /Isrc\njd_set_accent_type /Isrc\njd_set_digit /Isrc\njd_set_long_vowel /Isrc\njd_set_pronunciation /Isrc\njd_set_unvoiced_vowel /Isrc\text2mecab /I..\Library_hts_engine_API\include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D DIC_VERSION=102 /D "MECAB_DEFAULT_RC=\"dummy\"" /D "PACKAGE=\"open_jtalk\"" /D "VERSION=\"1.02\"" /D MECAB_WITHOUT_SHARE_DIC /D HAVE_WINDOWS_H /D CHARSET_SHIFT_JIS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\mecab\src\char_property.cpp src\mecab\src\connector.cpp src\mecab\src\context_id.cpp src\mecab\src\dictionary.cpp src\mecab\src\dictionary_compiler.cpp src\mecab\src\dictionary_generator.cpp src\mecab\src\dictionary_rewriter.cpp src\mecab\src\eval.cpp src\mecab\src\feature_index.cpp src\mecab\src\iconv_utils.cpp src\mecab\src\lbfgs.cpp src\mecab\src\learner.cpp src\mecab\src\learner_tagger.cpp src\mecab\src\libmecab.cpp src\mecab\src\mecab.cpp src\mecab\src\nbest_generator.cpp src\mecab\src\param.cpp src\mecab\src\string_buffer.cpp src\mecab\src\tagger.cpp src\mecab\src\tokenizer.cpp src\mecab\src\utils.cpp src\mecab\src\viterbi.cpp src\mecab\src\writer.cpp
          char_property.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
          connector.cpp
          context_id.cpp
          dictionary.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\darts.h(189): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
-                 c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\darts.h(129): クラス テンプレート のメンバー関数 'size_t MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>::insert(const std::vector<_Ty> &)' のコンパイル中
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\darts.h(189): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
+                 c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\darts.h(129): クラス テンプレート のメンバー関数 'size_t MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>::insert(const std::vector<_Ty> &)' のコンパイル中
                  with
                  [
                      node_type_=char,
@@ -47,7 +47,7 @@
                      array_u_type_=unsigned int,
                      _Ty=MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int>::node_t
                  ]
-                 c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\dictionary.h(31) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>' の参照を確認してください
+                 c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\dictionary.h(31) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>' の参照を確認してください
                  with
                  [
                      node_type_=char,
@@ -56,16 +56,16 @@
                      array_u_type_=unsigned int
                  ]
          dictionary_compiler.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
          dictionary_generator.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
          dictionary_rewriter.cpp
          eval.cpp
      1>src\mecab\src\eval.cpp(96): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
      1>src\mecab\src\eval.cpp(105): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
          feature_index.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\darts.h(189): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
-                 c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\darts.h(129): クラス テンプレート のメンバー関数 'size_t MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>::insert(const std::vector<_Ty> &)' のコンパイル中
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\darts.h(189): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
+                 c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\darts.h(129): クラス テンプレート のメンバー関数 'size_t MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>::insert(const std::vector<_Ty> &)' のコンパイル中
                  with
                  [
                      node_type_=char,
@@ -74,7 +74,7 @@
                      array_u_type_=unsigned int,
                      _Ty=MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int>::node_t
                  ]
-                 c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\feature_index.h(89) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>' の参照を確認してください
+                 c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\feature_index.h(89) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>' の参照を確認してください
                  with
                  [
                      node_type_=char,
@@ -83,10 +83,10 @@
                      array_u_type_=unsigned int
                  ]
          iconv_utils.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
          lbfgs.cpp
          learner.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
      1>src\mecab\src\learner.cpp(632): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
      1>src\mecab\src\learner.cpp(647): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
      1>src\mecab\src\learner.cpp(661): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
@@ -94,9 +94,9 @@
      1>src\mecab\src\learner.cpp(665): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
      1>src\mecab\src\learner.cpp(668): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
          learner_tagger.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
          libmecab.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
      1>src\mecab\src\libmecab.cpp(177): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
      1>src\mecab\src\libmecab.cpp(207): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
          mecab.cpp
@@ -104,16 +104,16 @@
          param.cpp
          string_buffer.cpp
          tagger.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\viterbi.h(77): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\viterbi.h(77): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
          tokenizer.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\viterbi.h(77): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\viterbi.h(77): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
          コンパイル中...
          utils.cpp
          viterbi.cpp
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\viterbi.h(77): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\viterbi.h(77): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
      1>src\mecab\src\viterbi.cpp(65): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
      1>src\mecab\src\viterbi.cpp(73): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
      1>src\mecab\src\viterbi.cpp(113): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
@@ -228,12 +228,12 @@
          Release\utils.obj
          Release\viterbi.obj
          Release\writer.obj
-         Library_Open_JTalk.vcxproj -> C:\MMDAgent\MMDAgent-1.3.1.exp\Library_Open_JTalk\lib\Open_JTalk.lib
+         Library_Open_JTalk.vcxproj -> C:\GitHub\MMDAgentExperimentEnvironment\Library_Open_JTalk\lib\Open_JTalk.lib
        FinalizeBuildStatus:
          ファイル "Release\Library_Open_JTalk.unsuccessfulbuild" を削除しています。
          "Release\Library_Open_JTalk.lastbuildstate" のタッチ タスクを実行しています。
-     1>プロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_Open_JTalk\Library_Open_JTalk.vcxproj" (build ターゲット) のビルドが完了しました。
+     1>プロジェクト "C:\GitHub\MMDAgentExperimentEnvironment\Library_Open_JTalk\Library_Open_JTalk.vcxproj" (build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:31.81
+経過時間 00:00:31.51

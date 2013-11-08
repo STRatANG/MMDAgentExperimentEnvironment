@@ -1,5 +1,5 @@
-﻿2013/10/22 4:37:20 にビルドを開始しました。
-     1>ノード 3 上のプロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Plugin_Open_JTalk\Plugin_Open_JTalk.vcxproj" (build ターゲット)。
+﻿2013/11/07 12:43:23 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\GitHub\MMDAgentExperimentEnvironment\Plugin_Open_JTalk\Plugin_Open_JTalk.vcxproj" (build ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "Release\Plugin_Open_JTalk.unsuccessfulbuild" を作成しています。
        ClCompile:
@@ -9,33 +9,33 @@
          Open_JTalk_Thread.cpp
          Plugin_Open_JTalk.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MMDAgent\MMDAgent-1.3.1.exp\Release\Plugins\Plugin_Open_JTalk.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Library_Bullet_Physics\lib /LIBPATH:..\Library_MMDFiles\lib /LIBPATH:..\Library_zlib\lib /LIBPATH:..\Library_libpng\lib /LIBPATH:..\Library_GLee\lib /LIBPATH:..\Library_MMDAgent\lib /LIBPATH:..\Library_hts_engine_API\lib /LIBPATH:..\Library_Open_JTalk\lib /LIBPATH:..\Library_JPEG\lib /LIBPATH:..\Library_GLFW\lib MMDFiles.lib libpng.lib Bullet_Physics.lib winmm.lib opengl32.lib glu32.lib zlib.lib GLee.lib MMDAgent.lib hts_engine_API.lib Open_JTalk.lib JPEG.lib GLFW.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Plugin_Open_JTalk.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MMDAgent\MMDAgent-1.3.1.exp\Release\Plugins\Plugin_Open_JTalk.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MMDAgent\MMDAgent-1.3.1.exp\Release\Plugins\Plugin_Open_JTalk.lib" /MACHINE:X86 /DLL Release\Open_JTalk.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GitHub\MMDAgentExperimentEnvironment\Release\Plugins\Plugin_Open_JTalk.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Library_Bullet_Physics\lib /LIBPATH:..\Library_MMDFiles\lib /LIBPATH:..\Library_zlib\lib /LIBPATH:..\Library_libpng\lib /LIBPATH:..\Library_GLee\lib /LIBPATH:..\Library_MMDAgent\lib /LIBPATH:..\Library_hts_engine_API\lib /LIBPATH:..\Library_Open_JTalk\lib /LIBPATH:..\Library_JPEG\lib /LIBPATH:..\Library_GLFW\lib MMDFiles.lib libpng.lib Bullet_Physics.lib winmm.lib opengl32.lib glu32.lib zlib.lib GLee.lib MMDAgent.lib hts_engine_API.lib Open_JTalk.lib JPEG.lib GLFW.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Plugin_Open_JTalk.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\GitHub\MMDAgentExperimentEnvironment\Release\Plugins\Plugin_Open_JTalk.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GitHub\MMDAgentExperimentEnvironment\Release\Plugins\Plugin_Open_JTalk.lib" /MACHINE:X86 /DLL Release\Open_JTalk.obj
          Release\Open_JTalk_Manager.obj
          Release\Open_JTalk_Thread.obj
          Release\Plugin_Open_JTalk.obj
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_hts_engine_API\lib\hts_engine_API.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_Bullet_Physics\lib\Bullet_Physics.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_GLee\lib\GLee.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_GLFW\lib\GLFW.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_JPEG\lib\JPEG.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_zlib\lib\zlib.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_libpng\lib\libpng.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_MMDFiles\lib\MMDFiles.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_MMDAgent\lib\MMDAgent.lib"
-         "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_Open_JTalk\lib\Open_JTalk.lib"
-            ライブラリ C:\MMDAgent\MMDAgent-1.3.1.exp\Release\Plugins\Plugin_Open_JTalk.lib とオブジェクト C:\MMDAgent\MMDAgent-1.3.1.exp\Release\Plugins\Plugin_Open_JTalk.exp を作成中
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_hts_engine_API\lib\hts_engine_API.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_Bullet_Physics\lib\Bullet_Physics.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_GLee\lib\GLee.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_GLFW\lib\GLFW.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_JPEG\lib\JPEG.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_zlib\lib\zlib.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_libpng\lib\libpng.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_MMDFiles\lib\MMDFiles.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_MMDAgent\lib\MMDAgent.lib
+         C:\GitHub\MMDAgentExperimentEnvironment\Library_Open_JTalk\lib\Open_JTalk.lib
+            ライブラリ C:\GitHub\MMDAgentExperimentEnvironment\Release\Plugins\Plugin_Open_JTalk.lib とオブジェクト C:\GitHub\MMDAgentExperimentEnvironment\Release\Plugins\Plugin_Open_JTalk.exp を作成中
          コード生成しています。
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_open_jtalk\src\mecab\src\common.h(168): warning C4722: 'MeCab::wlog::~wlog' : デストラクターに値が戻りません。メモリ リークの可能性があります
-     1>c:\mmdagent\mmdagent-1.3.1.exp\library_glee\src\glee.c(15966): warning C4748: /GS 関数での最適化が無効にされているため、パラメーターおよびローカル変数をローカルのバッファー オーバーランから保護できません。
+     1>c:\github\mmdagentexperimentenvironment\library_open_jtalk\src\mecab\src\common.h(168): warning C4722: 'MeCab::wlog::~wlog' : デストラクターに値が戻りません。メモリ リークの可能性があります
+     1>c:\github\mmdagentexperimentenvironment\library_glee\src\glee.c(15966): warning C4748: /GS 関数での最適化が無効にされているため、パラメーターおよびローカル変数をローカルのバッファー オーバーランから保護できません。
          コード生成が終了しました。
-         Plugin_Open_JTalk.vcxproj -> C:\MMDAgent\MMDAgent-1.3.1.exp\Release\Plugins\Plugin_Open_JTalk.dll
+         Plugin_Open_JTalk.vcxproj -> C:\GitHub\MMDAgentExperimentEnvironment\Release\Plugins\Plugin_Open_JTalk.dll
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\MMDAgent\MMDAgent-1.3.1.exp\Release\Plugins\Plugin_Open_JTalk.dll;#2" /manifest Release\Plugin_Open_JTalk.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\GitHub\MMDAgentExperimentEnvironment\Release\Plugins\Plugin_Open_JTalk.dll;#2" /manifest Release\Plugin_Open_JTalk.dll.intermediate.manifest
        FinalizeBuildStatus:
          ファイル "Release\Plugin_Open_JTalk.unsuccessfulbuild" を削除しています。
          "Release\Plugin_Open_JTalk.lastbuildstate" のタッチ タスクを実行しています。
-     1>プロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Plugin_Open_JTalk\Plugin_Open_JTalk.vcxproj" (build ターゲット) のビルドが完了しました。
+     1>プロジェクト "C:\GitHub\MMDAgentExperimentEnvironment\Plugin_Open_JTalk\Plugin_Open_JTalk.vcxproj" (build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:29.14
+経過時間 00:00:31.35

@@ -1,5 +1,5 @@
-﻿2013/10/22 4:38:20 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_JPEG\Library_JPEG.vcxproj" (build ターゲット)。
+﻿2013/11/07 12:41:43 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\GitHub\MMDAgentExperimentEnvironment\Library_JPEG\Library_JPEG.vcxproj" (build ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "Release\Library_JPEG.unsuccessfulbuild" を作成しています。
        PreBuildEvent:
@@ -21,15 +21,108 @@
          src\transupp.h
                 11 個のファイルをコピーしました。
        ClCompile:
-         すべての出力が最新のものです。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\jaricom.c src\jcapimin.c src\jcapistd.c src\jcarith.c src\jccoefct.c src\jccolor.c src\jcdctmgr.c src\jchuff.c src\jcinit.c src\jcmainct.c src\jcmarker.c src\jcmaster.c src\jcomapi.c src\jcparam.c src\jcprepct.c src\jcsample.c src\jctrans.c src\jdapimin.c src\jdapistd.c src\jdarith.c src\jdatadst.c src\jdatasrc.c src\jdcoefct.c src\jdcolor.c src\jddctmgr.c src\jdhuff.c src\jdinput.c src\jdmainct.c src\jdmarker.c src\jdmaster.c src\jdmerge.c src\jdpostct.c src\jdsample.c src\jdtrans.c src\jerror.c src\jfdctflt.c src\jfdctfst.c src\jfdctint.c src\jidctflt.c src\jidctfst.c src\jidctint.c src\jmemmgr.c src\jmemnobs.c src\jquant1.c src\jquant2.c src\jutils.c
+         jaricom.c
+         jcapimin.c
+         jcapistd.c
+         jcarith.c
+         jccoefct.c
+         jccolor.c
+         jcdctmgr.c
+         jchuff.c
+         jcinit.c
+         jcmainct.c
+         jcmarker.c
+         jcmaster.c
+         jcomapi.c
+         jcparam.c
+         jcprepct.c
+         jcsample.c
+         jctrans.c
+         jdapimin.c
+         jdapistd.c
+         jdarith.c
+         コンパイル中...
+         jdatadst.c
+         jdatasrc.c
+         jdcoefct.c
+         jdcolor.c
+         jddctmgr.c
+         jdhuff.c
+         jdinput.c
+         jdmainct.c
+         jdmarker.c
+         jdmaster.c
+         jdmerge.c
+         jdpostct.c
+         jdsample.c
+         jdtrans.c
+         jerror.c
+         jfdctflt.c
+         jfdctfst.c
+         jfdctint.c
+         jidctflt.c
+         jidctfst.c
+         コンパイル中...
+         jidctint.c
+         jmemmgr.c
+         jmemnobs.c
+         jquant1.c
+         jquant2.c
+         jutils.c
        Lib:
-         すべての出力が最新のものです。
-         Library_JPEG.vcxproj -> C:\MMDAgent\MMDAgent-1.3.1.exp\Library_JPEG\lib\JPEG.lib
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\JPEG.lib" /NOLOGO /LTCG Release\jaricom.obj
+         Release\jcapimin.obj
+         Release\jcapistd.obj
+         Release\jcarith.obj
+         Release\jccoefct.obj
+         Release\jccolor.obj
+         Release\jcdctmgr.obj
+         Release\jchuff.obj
+         Release\jcinit.obj
+         Release\jcmainct.obj
+         Release\jcmarker.obj
+         Release\jcmaster.obj
+         Release\jcomapi.obj
+         Release\jcparam.obj
+         Release\jcprepct.obj
+         Release\jcsample.obj
+         Release\jctrans.obj
+         Release\jdapimin.obj
+         Release\jdapistd.obj
+         Release\jdarith.obj
+         Release\jdatadst.obj
+         Release\jdatasrc.obj
+         Release\jdcoefct.obj
+         Release\jdcolor.obj
+         Release\jddctmgr.obj
+         Release\jdhuff.obj
+         Release\jdinput.obj
+         Release\jdmainct.obj
+         Release\jdmarker.obj
+         Release\jdmaster.obj
+         Release\jdmerge.obj
+         Release\jdpostct.obj
+         Release\jdsample.obj
+         Release\jdtrans.obj
+         Release\jerror.obj
+         Release\jfdctflt.obj
+         Release\jfdctfst.obj
+         Release\jfdctint.obj
+         Release\jidctflt.obj
+         Release\jidctfst.obj
+         Release\jidctint.obj
+         Release\jmemmgr.obj
+         Release\jmemnobs.obj
+         Release\jquant1.obj
+         Release\jquant2.obj
+         Release\jutils.obj
+         Library_JPEG.vcxproj -> C:\GitHub\MMDAgentExperimentEnvironment\Library_JPEG\lib\JPEG.lib
        FinalizeBuildStatus:
          ファイル "Release\Library_JPEG.unsuccessfulbuild" を削除しています。
          "Release\Library_JPEG.lastbuildstate" のタッチ タスクを実行しています。
-     1>プロジェクト "C:\MMDAgent\MMDAgent-1.3.1.exp\Library_JPEG\Library_JPEG.vcxproj" (build ターゲット) のビルドが完了しました。
+     1>プロジェクト "C:\GitHub\MMDAgentExperimentEnvironment\Library_JPEG\Library_JPEG.vcxproj" (build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:00.26
+経過時間 00:00:10.24
