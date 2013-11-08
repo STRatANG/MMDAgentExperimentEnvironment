@@ -8,12 +8,18 @@ private:
 
 	/* MMDAgent */
 	MMDAgent *mmdagent; 
-	bool enable;
 
-	/* TextForm */
+	/* CompositForm */
 	CompositeForm *compositeform; 
 
-	/* ButtonForm */
-
 public: 
-}
+	/* ExperimentEnvironment: constracter */
+	ExperimentEnvironment(); 
+
+	/* ExperimentEnvironment: destracter */
+	~ExperimentEnvironment(); 
+
+	/* setup: initialize and setup ExperimentEnvironment ( and internal MMDAgent and Forms ) */
+	bool setup(int argc, char **argv, const char *title);
+
+};
